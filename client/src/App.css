@@ -1,24 +1,203 @@
-.App {
+/* dark teal: 105266
+light teal: 187996
+dark purple: 272635
+light purple: 503859
+whiteish: F2F4FF or f9f4fa*/
+
+body {
+  background-image: url("/assets/smallersquares.png");
+  background-repeat: repeat;
+  font-family: 'Open Sans',
+      sans-serif;
+}
+
+.navbar {
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 4rem;
+  z-index: 2000;
+  background-color: #602c70;
+  border-bottom: #187996 3px solid;
+}
+
+
+.navbar-collapse {
+  background-color: #602c70;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.navbar-brand {
+  background-color: #187996;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 10px;
+  font-family: 'Overlock',
+      cursive;
+  font-weight: bold;
+  font-size: x-large;
+  color: #f9f4fa;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+/* unvisited link */
+.navbar .nav-item .nav-link a:link {
+  color: #ffffff !important;
+}
+/* visited link */
+.navbar .nav-item .nav-link a:visited {
+  color: #ffffff;
+}
+/* mouse over link */
+.navbar .nav-item .nav-link a:hover {
+  color: #f2f4f2;
+}
+/* selected link */
+.navbar .nav-item.nav-link a:active {
+  color: gainsboro;
 }
 
-.App-intro {
-  font-size: large;
+h1 {
+  color: #187996;
+  font-weight: bold;
+  font-family: 'Overlock',
+      cursive;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.pgBody {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fcfafd;
+  border-radius: 5px;
+  border: thin solid #503859;
+}
+
+.profileImg {
+  overflow: hidden;
+}
+
+.profileImg img {
+  border: thin solid #602c70;
+  border-radius: 5px;
+}
+
+body hr {
+  border: thin dashed #503859;
+}
+
+.portCard {
+  border: thin solid #602c70;
+  background-color: #f9f4fa;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .portCard {
+      min-width: 40%;
+      max-width: 45%;
+  }
+}
+
+.card-body .card-title {
+  font-family: 'Overlock',
+      cursive;
+  color: #105266;
+  font-weight: bold;
+  text-align: center;
+}
+
+.portCard img {
+  border: thin solid #187996;
+  border-radius: 5px;
+  margin-top: 3px;
+}
+
+.linkBox {
+  width: fit-content;
+}
+
+.linkBox .btn-outline-info {
+  color: #f9f4fa;
+  background-color: #187996;
+  border-color: #105266;
+  /*set the color you want here*/
+}
+
+.linkBox .btn-outline-info:hover,
+.linkBox .btn-outline-info:focus,
+.linkBox .btn-outline-info:active,
+.linkBox .btn-outline-info.active,
+.open>.dropdown-toggle.btn-outline-info {
+  color: #f9f4fa;
+  background-color: #105266;
+  border-color: rgb(37, 87, 131);
+  /*set the color you want here*/
+}
+
+dl dt {
+  text-align: left !important;
+}
+
+@media (min-width: 768px) {
+  dl dt {
+      text-align: right !important;
+  }
+}
+
+.cont {
+  min-height: 85vh;
+  margin-bottom: auto;
+  flex-grow: 0 1 auto;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  flex-shrink: 0;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #602c70;
+  border-top: #187996 3px solid;
+}
+
+/* unvisited link */
+.pgBody a:link {
+  color: #187996;
+}
+
+/* visited link */
+.pgBody a:visited {
+  color: #503859;
+}
+
+/* mouse over link */
+.pgBody a:hover {
+  color: #105266;
+}
+
+/* selected link */
+.pgBody a:active {
+  color: #105266;
+}
+
+/* unvisited link */
+.pgBody .portCard a:link {
+  color: #ffffff;
+}
+
+/* visited link */
+.pgBody .portCard a:visited {
+  color: #f9f4fa;
+}
+
+/* mouse over link */
+.pgBody .portCard a:hover {
+  color: #ffffff;
+}
+
+/* selected link */
+.pgBody .portCard a:active {
+  color: #ffffff;
 }
