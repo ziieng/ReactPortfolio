@@ -20,7 +20,7 @@ function TopNav() {
       <Navbar.Toggle aria-controls="CollapsedNav" />
       {/* Navigation here down collapses on narrower screens */}
       <Navbar.Collapse className="ml-5 " id="CollapsedNav">
-        <Nav className="mt-2 mt-lg-0 h4">
+        <Nav className="mt-2 mt-lg-0 mx-auto h4">
           <Nav.Item>
             <Nav.Link target="_blank" rel="noopener noreferrer" href="mailto:ziiengelhardt@gmail.com" aria-label="Email">
               < FaEnvelope />
@@ -45,10 +45,10 @@ function TopNav() {
         </Nav>
         <Nav className="mt-2 mt-lg-0">
           <Nav.Item>
-            <Link className="nav-link" to="/contact">Contact</Link>
+            <Link className={(activePage === "/contact") ? "nav-link active" : "nav-link"} to="/contact">Contact</Link>
           </Nav.Item>
           <Nav.Item>
-            <Link className="nav-link" to="/portfolio">Portfolio</Link>
+            <Link className={(activePage === "/portfolio") ? "nav-link active" : "nav-link"} to="/portfolio">Portfolio</Link>
           </Nav.Item>
           <Nav.Item>
             <Link className={(activePage === "/about") ? "nav-link active" : "nav-link"} to="/about">About</Link>

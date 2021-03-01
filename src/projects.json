@@ -1,0 +1,95 @@
+[
+  {
+    "title": "AidExchange",
+    "description": [
+      "AidExchange is here to help you help others (and yourself!) by providing a platform to request donations from your community and find requests that are near you. Our main focus is on Mutual Aid organizations and non-profits, but we also support individuals looking to reduce their spending in everyday life.",
+      "This project was done as part of a team in the UW Coding Bootcamp program."
+    ],
+    "technologies": [
+      "Mongoose.js",
+      "React",
+      "Google Maps API",
+      "Firebase Authentication and Storage",
+      "Axios",
+      "Bootstrap"
+    ],
+    "images": [
+      {
+        "url": "/assets/screens/AidEx1.png",
+        "alt": "A search result from AidExchange."
+      }
+    ],
+    "deployed": "",
+    "repo": ""
+  },
+  {
+    "title": "Bantr",
+    "description": [
+      "A social media platform, for Buzzing your Buds. Inspired by Twitter, this app utilizes a MySQL database via Sequelize to display posts made within a user's friend list.",
+      "This project was done as part of a team in the UW Coding Bootcamp program."
+    ],
+    "technologies": [
+      "Sequelize",
+      "MySQL",
+      "Handlebars",
+      "Passport",
+      "Express"
+    ],
+    "images": [
+      {
+        "url": "/assets/screens/Bantr2.png",
+        "alt": "A screenshot of bantr's dashboard page."
+      },
+      {
+        "url": "/assets/screens/Bantr1.png",
+        "alt": "A screenshot of bantr's login page."
+      }
+    ],
+    "deployed": "https://bantr.herokuapp.com/",
+    "repo": "https://github.com/ziieng/bantr"
+  },
+  {
+    "title": "",
+    "description": [],
+    "technologies": [],
+    "images": [
+      "",
+      ""
+    ],
+    "deployed": "",
+    "repo": ""
+  },
+  {
+    "title": "",
+    "description": [],
+    "technologies": [],
+    "images": [
+      "",
+      ""
+    ],
+    "deployed": "",
+    "repo": ""
+  },
+  {
+    "title": "",
+    "description": [],
+    "technologies": [],
+    "images": [
+      "",
+      ""
+    ],
+    "deployed": "",
+    "repo": ""
+  },
+  {
+    "title": "",
+    "description": [],
+    "technologies": [],
+    "images": [
+      "",
+      ""
+    ],
+    "deployed": "",
+    "repo": ""
+  }
+]
