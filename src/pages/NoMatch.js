@@ -1,20 +1,18 @@
 import React from "react";
-import { Col, Row, Container, Jumbotron } from "react-bootstrap";
+import { Col, Row, Container } from "react-bootstrap";
+import { Link } from "react-router-dom"
 
 function NoMatch() {
   return (
-    <Container fluid>
-      <Row>
-        <Col size="md-12">
-          <Jumbotron>
-            <h1>Page Not Found</h1>
-            <h1>
-              <a href="/">Back to home?</a>
-            </h1>
-          </Jumbotron>
-        </Col>
-      </Row>
-    </Container>
+    <Container className="mt-5">
+    <Row>
+        <Col size="lg-4" className="my-5 p-3 pgBody shadow text-center">
+          <h1>Page Not Found</h1>
+          <h3 className="mx-2">¯\_(ツ)_/¯</h3>
+          <Link to="/">Return to home?</Link>
+      </Col>
+    </Row>
+  </Container>
   );
 }
 
