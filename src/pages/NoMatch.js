@@ -7,8 +7,8 @@ function NoMatch() {
     <Container className="mt-5">
     <Row>
         <Col size="lg-4" className="my-5 p-3 pgBody shadow text-center">
-          <h1>Page Not Found</h1>
-          <h3 className="mx-2">¯\_(ツ)_/¯</h3>
+          <h1>¯\_(ツ)_/¯</h1>
+          <h3 className="my-2">Page Not Found</h3>
           <Link to="/">Return to home?</Link>
       </Col>
     </Row>

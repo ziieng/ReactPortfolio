@@ -8,8 +8,9 @@
     "technologies": [
       "Mongoose.js",
       "React",
+      "React-Router",
       "Google Maps API",
-      "Firebase Authentication and Storage",
+      "Firebase",
       "Axios",
       "Bootstrap"
     ],
@@ -19,8 +20,8 @@
         "alt": "A search result from AidExchange."
       }
     ],
-    "deployed": "",
-    "repo": ""
+    "deployed": "https://aidexchange.herokuapp.com/",
+    "repo": "https://github.com/ziieng/AidExchange"
   },
   {
     "title": "Bantr",
@@ -49,47 +50,99 @@
     "repo": "https://github.com/ziieng/bantr"
   },
   {
-    "title": "",
-    "description": [],
-    "technologies": [],
-    "images": [
-      "",
-      ""
+    "title": "Trip Planner",
+    "description": [
+      "An app for planning out a vacation! Search for restaurants and activities in one of 15 destination cities, and save them to each day of the trip. Uses localstorage to track saved data between sessions.",
+      "This project was done as part of a team in the UW Coding Bootcamp program."
     ],
-    "deployed": "",
-    "repo": ""
+    "technologies": [
+      "Triposo API",
+      "Semantic-UI",
+      "Day.js",
+      "jQuery",
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "images": [
+      {
+        "url": "/assets/screens/TP1.png",
+        "alt": "A screenshot of the Trip Planner project"
+      },
+      {
+        "url": "/assets/screens/TP2.png",
+        "alt": "A screenshot of the Trip Planner project"
+      }
+    ],
+    "deployed": "https://ziieng.github.io/Trip-Planner/",
+    "repo": "https://github.com/ziieng/Trip-Planner"
   },
   {
-    "title": "",
-    "description": [],
-    "technologies": [],
-    "images": [
-      "",
-      ""
+    "title": "React Directory",
+    "description": [
+      "An 'employee directory' built in React to demonstrate different ways to sort and filter data. It pulls a batch of random users from the Random User API to populate the 'employees' used. This list is then kept in the page's State and manipulated with sorts and filters according to user input.",
+      "This project was done solo in the UW Coding Bootcamp program."
     ],
-    "deployed": "",
-    "repo": ""
+    "technologies": [
+      "Axios",
+      "React",
+      "Bootstrap",
+      "jQuery"
+    ],
+    "images": [
+      {
+        "url": "/assets/screens/EmpDir.png",
+        "alt": "A screenshot of the React Directory project"
+      }
+    ],
+    "deployed": "https://ziieng.github.io/ReactDirectory/",
+    "repo": "https://github.com/ziieng/ReactDirectory"
   },
   {
-    "title": "",
-    "description": [],
-    "technologies": [],
-    "images": [
-      "",
-      ""
+    "title": "Employee Database",
+    "description": [
+      "A command-line Node app to manage a SQL database of employees. The database itself is designed to hold the employee's name, role, department, salary, and manager. To keep this information straight, it is split into 3 tables which are cross-referenced by MySQL.",
+      "This project was done solo in the UW Coding Bootcamp program."
     ],
-    "deployed": "",
-    "repo": ""
+    "technologies": [
+      "Node.js",
+      "Inquirer",
+      "MySQL",
+      "Console Table Printer"
+    ],
+    "images": [
+      {
+        "url": "/assets/screens/EmpDB.png",
+        "alt": "A screenshot of the Employee Database project"
+      }
+    ],
+    "deployed": "https://youtu.be/cHCqjoHrgyE",
+    "repo": "https://github.com/ziieng/EmployeeDatabase"
   },
   {
-    "title": "",
-    "description": [],
-    "technologies": [],
-    "images": [
-      "",
-      ""
+    "title": "BurgerBase",
+    "description": [
+      "A hamburger-themed checklist app, designed with MySQL, Express, and Handlebars. Users input burgers they plan to eat, then can mark them devoured and clean up after with a seamless experience and persistence across devices.",
+      "For an extra bit of fun, I added images for different kinds of burgers that are randomly selected on user input. The app also recognizes anything with 'chicken' or 'fish' in the name to provide different images that match them.",
+      "This project was done solo in the UW Coding Bootcamp program."
     ],
-    "deployed": "",
-    "repo": ""
+    "technologies": [
+      "Express",
+      "MySQL",
+      "Handlebars",
+      "Bootstrap"
+    ],
+    "images": [
+      {
+        "url": "/assets/screens/BurgerSnip.png",
+        "alt": "A screenshot of the Trip Planner project"
+      },
+      {
+        "url": "/assets/screens/BurgerBase.gif",
+        "alt": "A screenshot of the Trip Planner project"
+      }
+    ],
+    "deployed": "https://fathomless-citadel-38635.herokuapp.com/",
+    "repo": "https://github.com/ziieng/BurgerBase"
   }
 ]

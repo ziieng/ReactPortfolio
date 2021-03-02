@@ -18,7 +18,7 @@ function PortCard(props) {
   }
 
   return (
-    <Card className="portCard mx-md-auto my-2">
+    <Card className="portCard mx-md-auto my-2" style={{ backgroundColor: "#ffffff" }}>
       <Card.Body>
         <h3 class="card-title">{project.title}</h3>
         <Card.Img className="mb-2" src={project.images[spotlight].url} alt={project.images[spotlight].alt} />
