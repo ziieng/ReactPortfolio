@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Portfolio for Zii Engelhardt, refactored into React.",
   "private": true,
-  "homepage": "https://ziieng.github.io/ReactPortfolio",
+  "homepage": "https://ziieng.github.io/",
   "dependencies": {
     "bootstrap": "^4.6.0",
     "jquery": "^3.5.1",
