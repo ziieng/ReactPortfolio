@@ -10,7 +10,7 @@ function Home() {
           <h1 className="text-center">About Zii</h1>
           <hr />
           <div class="ml-2 mr-3 float-left profileImg">
-            <img src="Assets/MeAndFreds.jpg" className="img-fluid rounded"
+            <img src="assets/MeAndFreds.jpg" className="img-fluid rounded"
               alt="Zii, a nerdy girl with short brown hair and rectangular glasses. Her hair is buzzed very short on one side, and is parted away from the camera. Behind her is a small black and white dog with large, pointed ears." />
           </div>
           <main>
